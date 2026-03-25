@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             TextField("Type your name", text: $text)
-            Text(String("Hello, \(text)"))
+            Text(String("Hello, \(text), how are you?"))
         }
         .padding()
     }
